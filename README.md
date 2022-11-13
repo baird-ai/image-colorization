@@ -10,6 +10,8 @@
 
 **Osama Elddadow**
 
+**Shaden Shanab**
+
 **Yazan Alfarra**
 
 ## Project Description
