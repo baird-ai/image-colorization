@@ -17,3 +17,5 @@
 ## Project Description
 
 Colorization is a process of converting grayscale images into visually acceptable color images. The main goal is to convince the viewer of the authenticity of the result.
+
+## References and Acknowledgements
