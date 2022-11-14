@@ -20,10 +20,10 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 path = '../imgs'
 paths = glob.glob(path + "/*.jpg") 
 np.random.seed(123)
-num_of_wanted_imgs = 10_000
+num_of_wanted_imgs = 1000
 paths_subset = np.random.choice(paths, num_of_wanted_imgs, replace=False) 
 rand_idxs = np.random.permutation(num_of_wanted_imgs)
-boundaries = 8_000
+boundaries = 500
 train_idxs = rand_idxs[:boundaries] 
 val_idxs = rand_idxs[boundaries:] 
 train_paths = paths_subset[train_idxs]
@@ -346,7 +346,7 @@ def log_results(loss_meter_dict):
         print(f"{loss_name}: {loss_meter.avg:.5f}")
 
 # Training the Model
-def train_model(model, train_dl, epochs, display_every=200):
+def train_model(model, train_dl, epochs, display_every=1):
     data = next(iter(val_dl)) 
     for e in range(epochs):
         loss_meter_dict = create_loss_meters() 
@@ -363,4 +363,4 @@ def train_model(model, train_dl, epochs, display_every=200):
                 visualize(model, data, save=False) 
 
 model = MainModel()
-train_model(model, train_dl, 100)
+train_model(model, train_dl, 10)
