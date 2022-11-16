@@ -21,6 +21,7 @@ nvidia-cublas-cu11==11.10.3.66
 nvidia-cuda-nvrtc-cu11==11.7.99
 nvidia-cuda-runtime-cu11==11.7.99
 nvidia-cudnn-cu11==8.5.0.96
+opencv-contrib-python==4.6.0.66
 packaging==21.3
 pathspec==0.10.2
 Pillow==9.3.0
@@ -38,7 +39,8 @@ scipy==1.9.3
 six==1.16.0
 tifffile==2022.10.10
 tomli==2.0.1
-torch==1.13.0
+torch==1.13.0+cu117
+torchaudio==0.13.0+cu117
 torchvision==0.14.0
 tqdm==4.64.1
 typing_extensions==4.4.0
