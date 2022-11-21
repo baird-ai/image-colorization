@@ -128,7 +128,7 @@ def makeitgrey():
         root.update()
    
     showinfo(message='Your image is ready!')
-    my_image =cv.imread('coloredimgs/coloredimg.jpg',0)
+    my_image =cv.imread('greyimgs/greyimg.jpg',0)
     final_img = cv.imwrite('coloredimgs/coloredimg.jpg',my_image)
     my_greyimg = cv.imread("coloredimgs/coloredimg.jpg")
     plt.imshow(my_greyimg)
