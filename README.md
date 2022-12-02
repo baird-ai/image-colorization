@@ -4,17 +4,17 @@
 
 ## Team Members
 
-**Abeer Shboul**
+**Abeer Shboul:** Worked mainly on configuring the pretrained model.
 
-**Ihab Abbas**
+**Ihab Abbas:** Worked mainly on configuring the pretrained model.
 
-**Omar Darwish**
+**Omar Darwish:** Worked mainly on the GUI.
 
-**Osama Elddadow**
+**Osama Elddadow:** Worked mainly on the GUI.
 
-**Shaden Shanab**
+**Shaden Shanab:** Worked mainly on training and modifying the model.
 
-**Yazan Alfarra**
+**Yazan Alfarra:** Worked mainly on training and modifying the model.
 
 ## Project Description
 
